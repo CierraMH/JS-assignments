@@ -1,11 +1,11 @@
-let recursion = function(b, e) {
-    if (e === 0){
-        return 1;
-    } else {
-        return b * recursion(b, e-1);
-    }
-    // console.log(2,5)
-    // return recursion()
-    // recursion(2,5);
+let recursion = function (b, e) {
+  if (e === 0) {
+    return 1;
+  } else {
+    return b * recursion(b, e - 1);
+  }
+  // console.log(2,5)
+  // return recursion()
+  // recursion(2,5);
 };
-console.log(recursion(9,4));
+console.log(recursion(9, 4));
