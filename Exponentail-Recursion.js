@@ -5,7 +5,7 @@ let recursion = function(b, e) {
         return b * recursion(b, e-1);
     }
     // console.log(2,5)
-    // return recursion(x**y)
+    // return recursion()
     // recursion(2,5);
 };
 console.log(recursion(9,4));
