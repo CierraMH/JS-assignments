@@ -78,11 +78,11 @@ function playTournament(player1, player2, player3, player4, playUntil) {
   return tournamentWinner;
 }
 // playRound(player1,player2);
-console.log("Winner is " + playGame(player1, player2, 5).name);
+console.log("Winner is " + playGame(player1, player2, 3).name);
 // playGame (player1, player2, 5);
 console.log();
 console.log();
 console.log(
-  playTournament(player1, player2, player3, player4, 2).name +
+  playTournament(player1, player2, player3, player4, 3).name +
     " is the world champion!"
 );
