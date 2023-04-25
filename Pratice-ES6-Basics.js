@@ -9,4 +9,4 @@ const evenSquares = squares.filter(isEven)
 // console.log(evenSquares);
 // console.log(numbers);
 const [firstEvenSqaure, secondEvenSqaure] = evenSquares;
-console.log(`${numbers}/ ${squares}/ ${evenSquares}/ ${firstEvenSqaure} , ${secondEvenSqaure}.`)
+console.log(`${numbers} / ${squares} / ${evenSquares} / ${firstEvenSqaure} , ${secondEvenSqaure}.`)
