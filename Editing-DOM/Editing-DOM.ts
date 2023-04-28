@@ -1,7 +1,9 @@
-const li: NodeListOf<HTMLElement> = document.querySelectorAll('li');
+//how to change a nodeList to an array(line2)
+const li: HTMLElement[] = [...document.querySelectorAll('li')];
 // console.log(li[1].innerHTML); //shows Apples (before the text change)
 li[1].innerHTML = "Granny Smith Apples";
 // console.log(li[1].innerHTML);
+console.log(li);
 
 document.querySelector<any>('.oatM').remove();
 
